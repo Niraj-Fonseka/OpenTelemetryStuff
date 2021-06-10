@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/trace"
+	"OpenTelemetryStuff/request-flow/trace"
 )
 
 type UserStorer interface {

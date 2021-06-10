@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/storage"
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/trace"
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/users"
+	"OpenTelemetryStuff/request-flow/storage"
+	"OpenTelemetryStuff/request-flow/trace"
+	"OpenTelemetryStuff/request-flow/users"
 
 	_ "github.com/go-sql-driver/mysql"
 )

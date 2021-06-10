@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/trace"
+	"OpenTelemetryStuff/request-flow/trace"
 )
 
 type createRequest struct {

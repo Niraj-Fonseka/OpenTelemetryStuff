@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/storage"
-	"github.com/Niraj-Fonseka/OpenTelemetryStuff/request-flow/client/internal/pkg/trace"
+	"OpenTelemetryStuff/request-flow/storage"
+	"OpenTelemetryStuff/request-flow/trace"
 )
 
 type service struct {

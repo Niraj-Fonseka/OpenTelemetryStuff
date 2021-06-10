@@ -60,7 +60,7 @@ func NewProvider(config ProviderConfig) (Provider, error) {
 		propagation.Baggage{},
 	))
 
-	tracer = struct{ trace.Tracer }{otel.Tracer(config.ServiceName)}
+	//tracer := struct{ trace.Tracer }{otel.Tracer(config.ServiceName)}
 
 	return Provider{provider: prv}, nil
 }
